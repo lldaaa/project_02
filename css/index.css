@@ -1,0 +1,533 @@
+/* 头部开始 */
+.header {
+    width: 100%;
+    height: 140px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+/* 居中 */
+.wrap {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.header-box {
+    position: relative;
+    height: 140px;
+    /* background-color: pink; */
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 190px;
+    height: 120px;
+    background: url(../images/logo.png) no-repeat;
+}
+
+.search {
+    width: 100%;
+    height: 60px;
+}
+
+.search_m {
+    position: relative;
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.search_logo {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 125px;
+    height: 40px;
+    display: none;
+    background: url(../images/logo.png) no-repeat;
+    background-position: 0 -120px;
+}
+
+.form {
+    position: absolute;
+    left: 260px;
+    top: 25px;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+}
+
+.keyword {
+    position: absolute;
+    top: 0;
+    width: 425px;
+    height: 26px;
+    padding: 2px 44px 2px 17px;
+    /* transparent透明色 */
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+    color: #333;
+    /* 去掉外面默认边框 */
+    outline: none;
+}
+
+.form>button {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+    background: #e1251b;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.form>button:hover {
+    background: #c81623;
+}
+
+.form>button>img {
+    margin-top: 3px;
+    width: 70%;
+    height: 70%;
+}
+
+/* 模糊查询 */
+.search_help {
+    display: none;
+    position: absolute;
+    top: 35px;
+    width: 488px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 1px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.search_help p {
+    font-size: 14px;
+    height: 24px;
+    padding: 1px 6px;
+    line-height: 24px;
+    color: #666;
+}
+
+/* 头部结束 */
+
+/* 轮播图开 */
+body {
+    background-color: #f4f4f4;
+}
+
+.banner {
+    width: 100%;
+    height: 470px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    /* background-color: sandybrown; */
+}
+
+.banner_box {
+    height: 470px;
+    background-color: #fff;
+    display: flex;
+}
+
+.banner_slide {
+    position: relative;
+    width: 790px;
+    height: 470px;
+    margin: 0 auto;
+    /* background-color: palegoldenrod; */
+}
+
+.slide {
+    position: relative;
+    width: 590px;
+    height: 470px;
+    background-color: green;
+}
+
+.slide .slide_left,
+.slide_right {
+    display: block;
+    top: 50%;
+    position: absolute;
+    background-color: #bfb09f;
+    opacity: .8;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.slide .slide_left:hover,
+.slide_right:hover {
+    background-color: #660d0d;
+}
+
+.slide .slide_right {
+    right: 0;
+    border-radius: 50% 0 0 50%;
+}
+
+.slide .slide_left {
+    border-radius: 0 50% 50% 0;
+}
+
+.slide ul {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.slide ul li {
+    list-style: none;
+    width: 8px;
+    height: 8px;
+    background: #e4e3e2;
+    border-radius: 50%;
+    margin-left: 8px;
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.slide ul li.active {
+    background-color: #333;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+/* 轮播图结束 */
+
+/* 楼层图开始 */
+.content {
+    width: 100%;
+    position: relative;
+}
+
+.miaosha1 {
+    width: 100%;
+    height: 260px;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.miaosha2 {
+    height: 980px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: hotpink; */
+}
+
+.miaosha3 {
+    height: 1005px;
+    /* background-color: #666; */
+    margin-bottom: 20px;
+    text-align: center;
+}
+.miaosha3 h1{
+    height: 50px;
+    line-height: 50px;
+    background-color: #f4f4f4;
+}
+.miaosha3 .img1{
+    height: 700px;
+}
+.miaosha3 .img2{
+    height: 252px;
+}
+.miaosha4 {
+    width: 100%;
+    /* height: 1870px; */
+    /* background-color: plum; */
+}
+.miaosha4 .img1{
+    height: 621px;
+}
+.miaosha4 .img2{
+    height: 429px;
+}
+.elevator {
+    width: 58px;
+    height: 252px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: 615px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.elevator>a {
+    display: block;
+    padding-top: 10px;
+    /* 给每个子类平分父类 */
+    flex: 1;
+    font-size: 14px;
+    transition: all .2s ease;
+    background-color: #fff;
+}
+
+.elevator>a:hover {
+    background: red;
+    color: #fff;
+}
+
+.elevator_fix {
+    position: fixed;
+    top: 75px;
+    animation: eleshow 0.5s ease;
+}
+
+@keyframes eleshow {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 75px;
+    }
+}
+
+/* 楼层图结束 */
+
+/* 吸顶效果 */
+.search_fix {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid red;
+    background-color: #fff;
+    box-shadow: 2px 2px s2px rgb(0 0 0 / 20%);
+    animation: searchTop 0.5s ease-in-out;
+}
+
+@keyframes searchTop {
+    0% {
+        top: -50px;
+    }
+
+    100% {
+        top: 0;
+    }
+
+}
+
+/* 缓慢滑动图片效果 */
+.miaosha2 .ms2_top {
+    height: 340px;
+    background-color: palegreen;
+    margin-bottom: 20px;
+}
+
+.miaosha2 .ms2_center {
+    display: flex;
+    height: 260px;
+    /* background-color: rgb(188, 152, 251); */
+    margin-bottom: 20px;
+}
+
+.ms2_center_left {
+    width: 190px;
+    height: 100%;
+    padding-top: 10px;
+    background: url(../images/ms2_center_left1.png) no-repeat;
+}
+
+.ms2_center_left>div {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    margin: 0 auto;
+    background: url(../images/ms2_center_left2.png) no-repeat;
+
+}
+
+.ms2_center_left>div a {
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    color: #cfcfcf;
+    cursor: pointer;
+}
+
+.ms2_center_left>div span {
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    border: 1px solid #cfcfcf;
+    border-radius: 50%;
+
+}
+
+.ms2_center_left>div a:hover span {
+    background-color: red;
+
+}
+
+.ms2_center .ms2_center_right {
+    position: relative;
+    flex: 1;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.ms2_center_right>div {
+    position: absolute;
+    left: 0;
+    display: flex;
+    height: 260px;
+    flex: 1;
+    background-color: #fff;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.ms2_center_right a {
+    display: inline-block;
+    height: 260px;
+    /* background-color: green; */
+}
+
+.ms2_center_right a:hover {
+    opacity: 0.8;
+}
+
+.ms2_center_right span {
+    display: block;
+    width: 150px;
+    font-size: 14px;
+    height: 21px;
+    /*设置文本框大小*/
+    white-space: nowrap;
+    /*设置内容不换行*/
+    text-overflow: ellipsis;
+    /*设置文字超出文本框的内容显示成...*/
+    overflow: hidden;
+    /*超出部分隐藏*/
+
+
+}
+
+.ms2_center_right img {
+    width: 150px;
+    height: 150px;
+}
+
+.miaosha2 .ms2_down {
+    z-index: 100;
+    height: 340px;
+    width: 100%;
+    background-color: red;
+}
+
+/* 补充样式 */
+.shop {
+    position: absolute;
+    left: 840px;
+    top: 16px;
+    width: 130px;
+    height: 34px;
+    /* background-color: rgb(174, 52, 52); */
+    text-align: center;
+    line-height: 34px;
+    border: 2px solid #eee;
+}
+
+.shop a {
+    font-size: 14px;
+    color: red;
+
+}
+
+.shopul {
+    width: 960px;
+    height: 48px;
+    line-height: 48px;
+    display: flex;
+    /* background-color: rebeccapurple; */
+    margin-top: 32px;
+    padding-left: 120px;
+    justify-content: center;
+}
+
+.shopul li {
+    margin-left: 20px;
+}
+
+.search_m .shop {
+    top: 10px;
+}
+
+.banner_left,
+.banner_right {
+    position: relative;
+    width: 190px;
+    /* height: 450px; */
+    /* background-color: #333; */
+}
+.banner_left .ul1{
+    padding-top: 10px;
+}
+.banner_left .ul1 li{
+height: 25px;
+line-height: 25px;
+padding-left: 10px;
+/* background-color: #333; */
+}
+.banner_left .ul1 li:hover{
+    background-color: #d9d9d9;
+}
+.banner_left .ul2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.banner_left .ul2 li{
+    display: none;
+    width: 991px;
+    height: 466px;
+    background-color: green;
+    border: 2px solid gray;
+    box-shadow:0px -2px 2px gray ;
+    position: absolute;
+    top: 0;
+    left: 190px;
+    z-index: 100;
+}
+.leftside{
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 193px;
+    height: 470px;
+   right: 0;
+   overflow: hidden;
+}
+.leftside img{
+    display: block;
+    /* height: 00px; */
+}

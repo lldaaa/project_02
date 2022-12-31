@@ -1,0 +1,36 @@
+header{
+    position: fixed;
+    top: 0;
+}
+.main{
+    display: flex;
+    position: fixed;
+    top: 150px;
+    right: 30px;
+    flex-direction: column;
+    width: 180px;
+    background-color: rebeccapurple;
+    padding-left: 10px;
+}
+.main a{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.main a:hover{
+    background-color: #fff;
+}
+.hh{
+    width: 1000px;
+    /* height: 400px; */
+    text-align: center;
+    background-color: green;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+#a1{
+    margin-top: 100px;
+}
+h1{
+    color: #fff;
+}
